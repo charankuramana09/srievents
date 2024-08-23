@@ -1,0 +1,120 @@
+/* Reset margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Video container fills the entire screen */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background video styling */
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Overlay styling for the timer */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; /* Disable interaction with the overlay */
+}
+
+/* Timer within the overlay */
+.overlay .tickcounter {
+    color: white;
+    font-size: 2.5rem; /* Default size, adjustable in media queries */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+
+/* Very Small Mobile Phones (320px width) */
+@media (max-width: 320px) {
+    #background-video {
+        object-fit: cover; /* Ensure video covers the screen */
+    }
+    .overlay .tickcounter {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+    }
+}
+
+/* Small Mobile Phones (375px width) */
+@media (max-width: 375px) {
+    .overlay .tickcounter {
+        font-size: 1.5rem;
+        padding: 8px 15px;
+    }
+}
+
+/* Mobile Phones (425px width) */
+@media (max-width: 425px) {
+    .overlay .tickcounter {
+        font-size: 1.8rem;
+        padding: 10px 18px;
+    }
+}
+
+/* Tablets (min-width: 426px and max-width: 768px) */
+@media (min-width: 426px) and (max-width: 768px) {
+    .overlay .tickcounter {
+        font-size: 2rem;
+        padding: 12px 20px;
+    }
+}
+
+/* Small Laptops (min-width: 769px and max-width: 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .overlay .tickcounter {
+        font-size: 2.5rem;
+        padding: 15px 25px;
+    }
+}
+
+/* Desktops (min-width: 1025px) */
+@media (min-width: 1025px) {
+    .overlay .tickcounter {
+        font-size: 3rem;
+        padding: 20px 30px;
+    }
+}
