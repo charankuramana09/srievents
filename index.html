@@ -32,7 +32,20 @@
     <div data-header="sticky" data-header-top="200" class="l-theme animated-css">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12"><a href="birthday.html" class="demopage-logo"><img src="assets/media/img/sri events logo.png" alt="Logo" class="center-block img-responsive" width="30%">
+          <div class="col-xs-12">
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="corporate.html">Corporate Events</a>
+                <a href="sports.html">Sports Events</a>
+                <a href="socialEvents.html">Social Events</a>
+                <a href="liveStreams.html">Live Streams</a>
+                <a href="school.html">School</a>
+                <a href="gatedCoummnities.html">Gated Communities</a>
+              </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <a href="birthday.html" class="demopage-logo"><img src="assets/media/img/sri events logo.png" alt="Logo" class="center-block img-responsive" width="30%">
             <img src="assets/media/general/logo-dark-sri.png" alt="Logo" class="center-block img-responsive" width="68%">
           </a></div>
 
@@ -131,30 +144,31 @@
           <div class="starSeparatorBox clearfix">
             <div class="demopage-preview">
               <!-- Group-1-->
-              <div class="col-sm-3 col-xs-12 clearfix scrollreveal">
-                <div class="demopage-preview_item"><a target="_blank" href="birthday.html" style="background-image: url(assets/media/general/preview/01_home-1.jpg)" class="demopage-preview_inner demopage-img"></a></div>
+              <div class="col-sm-4 col-xs-12 clearfix scrollreveal">
+                <div class="demopage-preview_item"><a target="_blank" href="corporate.html" style="background-image: url(assets/media/general/preview/01_home-1.jpg)" class="demopage-preview_inner demopage-img"></a></div>
                 <h3>Corporate Events</h3>
               </div>
-              <div class="col-sm-3 col-xs-12 clearfix scrollreveal">
+              <div class="col-sm-4 col-xs-12 clearfix scrollreveal">
                 <div class="demopage-preview_item"><a target="_blank" href="socialEvents.html" style="background-image: url(assets/media/general/preview/02_home-2.jpg)" class="demopage-preview_inner demopage-img demopage-img_2"></a></div>
                 <h3>Social Events</h3>
               </div>
-              <div class="col-sm-3 col-xs-12 clearfix scrollreveal">
-                <div class="demopage-preview_item"><a target="_blank" href="sports.html" style="background-image: url(assets/media/general/preview/03_about.jpg)" class="demopage-preview_inner demopage-img demopage-img_3"></a></div>
+              <div class="col-sm-4 col-xs-12 clearfix scrollreveal">
+                <div class="demopage-preview_item"><a target="_blank" href="sports.html" style="background-image: url(assets/media/general/preview/03_about.jpg)" class="demopage-preview_inner demopage-img demopage-img_3"></a>
+                </div>
                 <h3>Sports Events</h3>
               </div>
               <!-- Group-2-->
-              <div class="col-sm-3 col-xs-12 clearfix scrollreveal">
+              <div class="col-sm-4 col-xs-12 clearfix scrollreveal">
                 <div class="demopage-preview_item"><a target="_blank" href="liveStreams.html" style="background-image: url(assets/media/general/preview/04_services.jpg)" class="demopage-preview_inner demopage-img demopage-img_7"></a></div>
                 <h3>Live Streams</h3>
               </div>
 
-              <div class="col-sm-3 col-xs-12 clearfix scrollreveal">
+              <div class="col-sm-4 col-xs-12 clearfix scrollreveal">
                 <div class="demopage-preview_item"><a target="_blank" href="school.html" style="background-image: url(assets/media/general/preview/04_services.jpg)" class="demopage-preview_inner demopage-img demopage-img_7"></a></div>
                 <h3>school</h3>
               </div>
 
-              <div class="col-sm-3 col-xs-12 clearfix scrollreveal">
+              <div class="col-sm-4 col-xs-12 clearfix scrollreveal">
                 <div class="demopage-preview_item"><a target="_blank" href="gatedCoummnities.html" style="background-image: url(assets/media/general/preview/04_services.jpg)" class="demopage-preview_inner demopage-img demopage-img_7"></a></div>
                 <h3>Gated Communities</h3>
               </div>
@@ -175,8 +189,11 @@
         </div>
       </section>
     </div>
-    
-    
+
+
+
+<!-- sports -->
+<script src="assets/js/index.js"></script>
     <script src="assets/libs/jquery-1.12.4.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/libs/bootstrap/bootstrap.min.js"></script>
