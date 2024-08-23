@@ -43,104 +43,48 @@ Primary use: Sri Events
 
 
 /* Main container */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
-  }
-  
-  /* Column styling */
-  .col-md-6 {
-    flex: 0 0 48%;
-    margin-bottom: 20px;
-  }
-  
-  /* Post container */
-  .b-post-sm {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .b-post-sm:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Entry media */
-  .entry-media img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-bottom: 4px solid #007bff;
-  }
-  
-  /* Entry main */
-  .entry-main {
-    padding: 15px;
-  }
-  
-  /* Entry header */
-  .entry-header {
-    margin-bottom: 10px;
-  }
-  
-  .ui-title-inner {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 0;
-    color: #007bff;
-    transition: color 0.3s ease;
-  }
-  
-  .ui-title-inner:hover {
-    color: #0056b3;
-  }
-  
-  /* Entry content */
-  .entry-content {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.5;
-  }
-  
-  /* Decorator */
-  .ui-decor-2_vert {
-    width: 4px;
-    height: 40px;
-    background-color: #007bff;
-    margin-right: 10px;
-    transition: height 0.3s ease;
-  }
-  
-  .b-post-sm:hover .ui-decor-2_vert {
-    height: 50px;
-  }
-  
-  /* Media query for responsiveness */
-  @media (max-width: 768px) {
-    .col-md-6 {
-      flex: 0 0 100%;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Animation for entry-media */
-  .entry-media img {
-    opacity: 0;
-    transform: scale(1.1);
-    animation: fadeInScale 0.5s forwards;
-  }
-  
-  @keyframes fadeInScale {
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  
+.container {
+  margin-top: 20px;
+}
+
+.post-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 15px;
+}
+
+.post-item .entry-media {
+  margin-bottom: 10px;
+}
+
+.post-item .entry-media img {
+  width: 100%;
+  height: 220px;
+  display: block;
+}
+
+.post-item .entry-content {
+  text-align: center;
+}
+
+.post-item .entry-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-item .entry-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-item .entry-title a:hover {
+  text-decoration: underline;
+}
+
+.post-item p {
+  font-size: 1rem;
+  color: #666;
+}
