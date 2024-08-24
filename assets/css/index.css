@@ -408,15 +408,20 @@ body {
 
 .image-container {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  width: 249px;
-  height: 153px;
+  top: 39%;
+  left: 40% !important;
+  width: 252px;
+  height: 160px;
   transform: translate(-50%, -50%); /* Center the image container inside the desktop */
   display: flex;
   justify-content: center;
   align-items: center;
   transition: opacity 1s ease-in-out;
+  padding:2px 2px 2px 2px;
+
+  @media(max-width:1024px){
+    left: 50% !important;
+  }
 }
 
 
