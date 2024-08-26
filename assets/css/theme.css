@@ -2278,6 +2278,8 @@ input:-ms-input-placeholder {
 .b-isotope-grid__inner {
   display: block;
   overflow: hidden;
+  height: 295px;
+  width: 340px;
 }
 
 .b-isotope-grid__wrap-info {
