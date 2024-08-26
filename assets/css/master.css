@@ -118,3 +118,67 @@ Primary use: Sri Events
   .flip-card:hover .flip-card-inner::after {
     opacity: 1;
   }
+  
+
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .entry-media {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .entry-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 120%; /* Slightly wider than the image */
+    height: 100%;
+    background-color: rgba(0, 0, 139, 0.8); /* Dark blue with some transparency */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: right 0.4s ease, opacity 0.4s ease;
+    text-align: center;
+  }
+
+  .entry-media:hover .hover-overlay {
+    right: 0;
+    opacity: 1;
+  }
+
+  .hover-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .hover-text p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
+  .explore-btn {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .explore-btn:hover {
+    background-color: #d35400;
+  }
