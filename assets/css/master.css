@@ -195,7 +195,7 @@ Primary use: Sri Events
   }
   
   .b-post-sm {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     margin-bottom: 20px;
     opacity: 0;

@@ -320,7 +320,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 299px;
+  max-width: 400px;
   /* border-radius: 50%; */
 }
 .img-rounded {
