@@ -3,7 +3,7 @@
     width: 35%;
     padding: 0;
     position: relative;
-    top: -50%;
+    top: -42%;
   }
 
   .navbar-brand-container {
@@ -19,7 +19,7 @@
 
 .scroll-logo {
     height: 70px; /* Adjust the height as needed */
-    margin-right: 10px; /* Spacing between the logo and the text */
+    margin-right: 5px; /* Spacing between the logo and the text */
     position: relative;
     top: -5px; /* Adjust to align the logo properly with the text */
 }
@@ -29,7 +29,7 @@
     flex-direction: column; /* Arrange 'SPORTS' and 'EVENTS' vertically */
     justify-content: center; /* Center the text vertically relative to the logo */
     font-weight: bold;
-    color: #007bff; /* Adjust the color to match your design */
+    color: #bee60d; /* Adjust the color to match your design */
     line-height: 1; /* Adjust line-height for better alignment */
     animation: slide-in 1s ease-in-out; /* Animation on text load */
     margin-top: -30px;
@@ -37,7 +37,7 @@
 
 .sports {
     font-size: 28px; /* Increased font size for 'SPORTS' */
-    color: #ff0000; /* Adjust the color of 'SPORTS' */
+    color: #f5a742; /* Adjust the color of 'SPORTS' */
     animation: bounce-in 1s ease-in-out; /* Subtle bounce animation */
 }
 

@@ -131,8 +131,7 @@ Primary use: Sri Events
   }
 
   .entry-media img {
-    width: 100%;
-    height: auto;
+    
     display: block;
   }
 
@@ -188,4 +187,62 @@ Primary use: Sri Events
   /* social events */
 
 
+  .circular-img {
+    border-radius: 50%;
+    width: 250px; /* Adjust the size as needed */
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .b-post-sm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  
+  .reverse .b-post-sm {
+    flex-direction: row-reverse;
+  }
+  
+  .reverse .b-post-sm-1_align_center {
+    transform: translateX(100%);
+  }
+  
+  .entry-media {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .entry-main {
+    max-width: 600px; /* Adjust width to fit your design */
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .reverse .b-post-sm {
+    animation: slideInReverse 1s forwards;
+  }
+  
+  @keyframes slideInReverse {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
   

@@ -88,3 +88,33 @@ Primary use: Sri Events
   font-size: 1rem;
   color: #666;
 }
+
+
+.section-brands {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.b-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-brands__scroll {
+  display: flex;
+  width: 100%;
+}
+
+.b-brands__item {
+  flex: 0 0 auto; /* Ensures each item only takes up its necessary space */
+  width: calc(100% / 3); /* Adjusts the width based on the number of images */
+  text-align: center;
+}
+
+.b-brands__item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
