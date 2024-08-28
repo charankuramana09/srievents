@@ -1,0 +1,106 @@
+/* Container styles */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* Row styles */
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Image and Content container styles */
+  .content-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .img-circle {
+    width: 100%;
+    max-width: 150px;
+    height: 150px; /* Ensure equal height */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Vertical line separator with blinking effect */
+  .vertical-line {
+    width: 3px;
+    height: 100%;
+    background-color: black;
+    animation: blink 1s infinite;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  /* Animation for left-to-right and right-to-left effect */
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-left-right .section-left {
+    animation: slideInLeft 1s ease-in-out;
+  }
+  
+  .animate-left-right .section-right {
+    animation: slideInRight 1s ease-in-out;
+  }
+  
+  .animate-right-left .section-left {
+    animation: slideInRight 1s ease-in-out;
+  }
+  
+  .animate-right-left .section-right {
+    animation: slideInLeft 1s ease-in-out;
+  }
+  
+  /* Final Image Alignment */
+  .final-image {
+    animation: slideInRight 1s ease-in-out;
+  }
+  

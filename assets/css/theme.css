@@ -56,9 +56,9 @@ body {
   margin-left: -30px;
 }
 
-p + p {
+/* p + p {
   margin-top: 20px;
-}
+} */
 
 /* ======= GUI ======= */
 /* Titles */
@@ -2409,6 +2409,8 @@ input:-ms-input-placeholder {
   border: none;
   border-radius: 50%;
   background-color: black;
+  justify-content: center;
+  margin-top: -500px;
 }
 
 .main-slider .sp-next-arrow:before,
