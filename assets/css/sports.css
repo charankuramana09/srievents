@@ -113,8 +113,9 @@ Primary use: Sri Events
 }
 
 .b-brands__item img {
-  max-width: 100%;
-  height: auto;
+  max-width: 200px;
+  height: 70px;
   display: block;
   margin: 0 auto;
+  width: 100px;
 }

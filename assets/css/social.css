@@ -17,11 +17,15 @@
     align-items: center;
     height: 100%;
   }
-  
+  .img-responsive1{
+    display: block;
+    max-width: 400px;
+     border-radius: 50%;
+  }
   .img-circle {
-    width: 100%;
-    max-width: 150px;
-    height: 150px; /* Ensure equal height */
+    
+    max-width: 210px;
+    height: 210px; /* Ensure equal height */
     border-radius: 50%;
     object-fit: cover;
   }
