@@ -2194,6 +2194,7 @@ input:-ms-input-placeholder {
 
 .grid-item img {
   height: 100%;
+  width: 100%;
 }
 
 .b-isotope {
