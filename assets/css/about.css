@@ -1,9 +1,6 @@
-.b-post-sm {
-    display: flex;
-    align-items: center;
-    gap: 0; /* No space between image and description */
+ .b-post-sm {
     animation-duration: 1s;
-  }
+  } 
   
   .entry-media,
   .entry-main {
