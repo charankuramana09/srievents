@@ -21,6 +21,11 @@
 .header-topbarbox-1, .header-topbarbox-2 {
     padding: 0;
 }
+.header-topbarbox-2{
+  @media (max-width: 768px){
+    display: none;
+  }
+}
 body:not(.header-demo) .navbar-scrolling .overlay-content *{
 	color: #ffd;
 }
@@ -47,7 +52,11 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
 }
 .header-topbarbox-1-left .header-topbarbox-1{
     width: 87%;
+    @media (max-width: 425px){
+      width: 85%;
+    }
 }
+
 .header-boxed-width .container-boxed-width .container{
     display: flex;
     text-align: center;
