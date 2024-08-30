@@ -270,7 +270,7 @@ $ bower install jquery.stellar
 * [360 Strategy Group](http://360strategygroup.com)
 * [Code, Love and Boards](http://codeloveandboards.com/)
 
-I'm sure there are heaps more. [Let me know if you'd like me to feature your site here.](http://twitter.com/markdalgleish)
+I'm sure there are heaps more. [Let me know if you'd like me to feature your site here.](http://https://www.instagram.com/sri_sports_events?igsh=eTY4NW1rcDQ0MTZh/markdalgleish)
 
 ## How to Build
 

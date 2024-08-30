@@ -68,6 +68,7 @@ Primary use: Sri Events
 
 .post-item .entry-content {
   text-align: center;
+  min-height: 200px;
 }
 
 .post-item .entry-title {
