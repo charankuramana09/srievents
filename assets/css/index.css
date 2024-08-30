@@ -53,7 +53,7 @@
   display: inline-block;
 }
 .demopage-header h1 {
-     font-size: 18px;
+  font-size: 18px;
   letter-spacing: 6px;
   line-height: 100%;
   padding-bottom: 45px;
@@ -86,7 +86,7 @@
   padding-top: 0px;
   padding-bottom: 0px;
   display: inline-block;
-    width: 30%
+  width: 45%
 }
 .demopage-title {
   font-size: 25px;
@@ -123,6 +123,7 @@
   position: relative;
   display: block;
   overflow: hidden;
+  top: 150px;
 }
 .demopage-preview_inner:after {
   content: '';
@@ -148,6 +149,8 @@
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 35%;
+  color: var(--primary);
 }
 .demopage-preview .button-border {
   border-color: #e5534c;
@@ -283,155 +286,4 @@ ul.demopage-help_list li a:hover {
 }
 
 /* charan changes */
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
 
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
-
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
-
-/* Sports css */
-
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: #f4f4f4;
-}
-
-.desktop {
-  width: 370px;
-  height: 314px;
-  background: url('assets/media/general/demo-page/mac.png') no-repeat center center;
-  background-size: contain;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.image-container {
-  position: absolute;
-  top: 39%;
-  left: 40% !important;
-  width: 252px;
-  height: 160px;
-  transform: translate(-50%, -50%); /* Center the image container inside the desktop */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: opacity 1s ease-in-out;
-  padding:2px 2px 2px 2px;
-
-  @media(max-width:1024px){
-    left: 50% !important;
-  }
-}
-
-
-.image-container img {
-  max-width: 100%;
-  max-height: 100%;
-  display: none;
-  object-fit: cover;
-}
-
-.image-container img.active {
-  display: block;
-}

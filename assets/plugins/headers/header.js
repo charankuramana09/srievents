@@ -225,6 +225,10 @@
             event.stopPropagation();
             controller.toggle( 'mobile-slidebar' );
         } );
+		$( '.js-toggle-slidebar' ).on( 'click', function ( event ) {
+            event.stopPropagation();
+            controller.toggle( 'event-slidebar' );
+        } );
 
 
 

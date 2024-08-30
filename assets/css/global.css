@@ -1,14 +1,98 @@
 /*custom styles*/
+:root {
+    --primary: #F49320;
+    --secondary: #3cb4d3;
+    --white: #ffffff;
+    --gray: #555555;
+    --black: #000000;
+    --paleblue: #f7fcfc;
+  }
+    
+  body {
+    font-family:'cursive','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    width: 100%;
+  }
+.header-topbarbox-1, .header-topbarbox-2 {
+    padding: 0;
+}
+body:not(.header-demo) .navbar-scrolling .overlay-content *{
+	color: #ffd;
+}
+body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container{
+    top: 0;
+}
+body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container .scroll.logo{
+    display: block;
+}
+body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container .scroll-logo{
+    width: 100%;
+    height: 85px !important;
+    top: -5%;
+}
+.navbar .navbar-brand-container .scroll.logo{
+    display: none;
+}
+.container-boxed-width, .social-net{
+    margin-top: 0!important;
+}
+.header-boxed-width .container-boxed-width{
+    margin: 0 auto;
+    padding: 0;
+}
+.header-topbarbox-1-left .header-topbarbox-1{
+    width: 90%;
+}
+.header-boxed-width .container-boxed-width .container{
+    display: flex;
+    text-align: center;
+    padding:0;
+}
+.header-boxed-width #nav {
+    padding: 0;
+}
+.header-boxed-width #nav .header-navibox-1{
+    margin: 30px 0;
+    padding: 0;
+}
+.header-boxed-width #nav .header-navibox-2{
+    margin: 0;
+}
+.scroll-logo{
+    height: 140px!important;
+    @media (max-width: 425px){
+        height: 90px!important;
+    }
+}
+.main-menu, .header-boxed-width #nav .menu-ham{
+    display: inline-block;
+    padding: 0;
+    font-size: 25px;
+    vertical-align: bottom;
+}
 .navbar-brand > img{
-    width: 35%;
+    width: 100%;
     padding: 0;
     position: relative;
-    top: -42%;
+    top: 0;
+    @media (max-width: 425px){
+        top:30%;
+    }
   }
 
   .navbar-brand-container {
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 30%;
+    @media (max-width: 425px){
+        top:0;
+    }
 }
 
 .navbar-brand {
@@ -102,3 +186,117 @@
   .header-navibox-3{
     display: none;
   }
+  #myNav{
+	  display:none;
+  }
+  #myNav.overlay .closebtn {
+	  top: -70px;
+  }
+  #myNav.index .closebtn {
+	  top: -10px;
+  }
+  .overlay {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0, 0.9);
+    transition: 0.5s;
+	width: 20%;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .menu-ham{
+    font-size: 40px;
+    cursor: pointer;
+    text-align: right;
+    padding-top: 5%;
+    color: var(--primary);
+  }
+  .logo-text{
+    display: inline-block;
+    font-family:'cursive','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif ;
+    color: var(--primary);
+  }
+  
+  /* Sports css */
+
+  
+  .desktop {
+    width: 370px;
+    height: 314px;
+    background: url('assets/media/general/demo-page/mac.png') no-repeat center center;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 39%;
+    left: 40% !important;
+    width: 252px;
+    height: 160px;
+    transform: translate(-50%, -50%); /* Center the image container inside the desktop */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease-in-out;
+    padding:2px 2px 2px 2px;
+  
+    @media(max-width:1024px){
+      left: 50% !important;
+    }
+  }
+  
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+    object-fit: cover;
+  }
+  
+  .image-container img.active {
+    display: block;
+  }
+  

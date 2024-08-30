@@ -17,9 +17,10 @@
     <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3"/>
     <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4"/>
     <link href="assets/plugins/switcher/css/color5.css" rel="alternate stylesheet" title="color5"/>
-	<link href="assets/css/index.css" rel="stylesheet" />
+	<link href="assets/css/global.css" rel="stylesheet" />
+  <link href="assets/css/sports.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="assets/media/general/favi.png" class="favicon_icon">
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/><!--[if lt IE 9 ]>
+    <!--[if lt IE 9 ]>
     <script src="/assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
     <![endif]-->
   </head>
@@ -30,7 +31,7 @@
     
     <div data-header="sticky" data-header-top="200" data-canvas="container" class="l-theme animated-css">
       <!-- Start Switcher-->
-      <div class="switcher-wrapper">
+      <!-- <div class="switcher-wrapper">
         <div class="demo_changer">
           <div class="demo-icon text-primary"><i class="fa fa-cog fa-spin fa-2x"></i></div>
           <div class="form_holder">
@@ -46,7 +47,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- end switcher-->
       <!-- ==========================-->
       <!-- SEARCH MODAL-->
@@ -72,12 +73,17 @@
       <!-- ==========================-->
       <div data-off-canvas="mobile-slidebar left overlay">
         <ul class="nav navbar-nav">
-                  <li><a href="corporate.html" >Home</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="corporate.html">Works</a></li>
+                  <li><a href="index.html" >Home</a></li>
+                  <li><a href="services.html">Services</a></li>                   
                   <li><a href="about.html">About</a></li>
                   <!-- <li><a href="blog-main.html">News</a></li> -->
                   <li><a href="contact.html">Contact</a></li>
+                  <li><a href="corporate.html">Corporate Events</a></li>
+                  <li>  <a href="sports.html">Sports Events</a></li>
+                  <li> <a href="socialEvents.html">Social Events</a></li>
+                  <li> <a href="liveStreams.html">Live Streams</a></li>
+                  <li>  <a href="school.html">School</a></li>
+                  <li>  <a href="gatedCoummnities.html">Gated Communities</a></li>
                 </ul>
       </div>
     <!-- ==========================-->
@@ -89,12 +95,12 @@
 		<div class="menu-main-menu-container">
             
              <ul class="nav navbar-nav">
-                  <li><a href="corporate.html" >Home</a></li>
+                  <li><a href="index.html" >Home</a></li>
                   <li><a href="services.html">Services</a></li>
-                  <li><a href="corporate.html">Works</a></li>
+                   
                   <li><a href="about.html">About</a></li>
                   <!-- <li><a href="blog-main.html">News</a></li> -->
-                  <li><a href="contact.html">Contact</a></li>
+                  
                 </ul>
          
         
@@ -107,19 +113,24 @@
       <header class="header header-boxed-width header-background-trans header-logo-black header-topbarbox-1-left header-topbarbox-2-right header-navibox-1-left header-navibox-2-right header-navibox-3-right header-navibox-4-right">
         <div class="top-bar">
           <div class="container container-boxed-width">
-            <div class="container">
+            <div class="navbar-brand-container">
+              <a href="corporate.html" class="navbar-brand logo">
+                  <img src="assets/media/img/all/logo1.png" alt="logo" class="scroll-logo "/>
+              </a>
+          </div>
+            <div class="container  hidden-xs">
               <div class="header-topbarbox-1">
                 <ul class="top-bar-contact">
                   <li class="top-bar-contact__item"><i class="icon icon-call-in"></i> +91 8906345678</li>
-                  <li class="top-bar-contact__item"><i class="icon icon-envelope-open"></i> info@srievents.org</li>
+                  <li class="top-bar-contact__item"><i class="icon icon-envelope-open"></i> info@srisportsevents.org</li>
                   <li class="top-bar-contact__item"><i class="icon icon-clock"></i> Mon – Sun  9.00 am – 6.00 pm</li>
                 </ul>
               </div>
               <div class="header-topbarbox-2">
-                <ul class="social-net list-inline">
-                  <li class="social-net__item"><a href="twitter.com" class="social-net__link text-primary_h"><i class="icon fa fa-twitter"></i></a></li>
+                <ul class="social-net list-inline mt-0">
+                  <li class="social-net__item"><a href="twitter.com" class="social-net__link text-primary_h"><i class="icon fa fa-instagram"></i></a></li>
                   <li class="social-net__item"><a href="facebook.com" class="social-net__link text-primary_h"><i class="icon fa fa-facebook"></i></a></li>
-                  <li class="social-net__item"><a href="plus.google.com" class="social-net__link text-primary_h"><i class="icon fa fa-google-plus"></i></a></li>
+                  <!-- <li class="social-net__item"><a href="plus.google.com" class="social-net__link text-primary_h"><i class="icon fa fa-google-plus"></i></a></li> -->
                   <li class="social-net__item"><a href="linkedin.com" class="social-net__link text-primary_h"><i class="icon fa fa-linkedin"></i></a></li>
                 </ul>
                 <!-- end social-list-->
@@ -129,35 +140,23 @@
         </div>
         <div class="container container-boxed-width">
           <nav id="nav" class="navbar">
-            <div class="container">
-              <div class="header-navibox-1">
-                <!-- Mobile Trigger Start-->
-                <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
-                <!-- Mobile Trigger End-->
-
-                <div class="navbar-brand-container">
-                  <a href="corporate.html" class="navbar-brand scroll logo">
-                      <img src="assets/media/img/all/logo1.png" alt="logo" class="scroll-logo hidden-xs"/>
-                      <span class="logo-text">
-                          <span class="sports">SPORTS</span>
-                          <span class="events"> EVENTS</span>
-                      </span>
-                  </a>
-              </div>
+            <div class="header-navibox-1">
+              <!-- Mobile Trigger Start-->
+              <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
+              <!-- Mobile Trigger End-->
+              <div class="navbar-brand-container">
+                <a href="corporate.html" class="navbar-brand scroll logo">
+                    <img src="assets/media/img/all/logo1.png" alt="logo" class="scroll-logo hidden-xs"/>
+                </a>
+            </div>
               
+            
 
-              </div>
-              <div class="header-navibox-3">
-                <ul class="nav navbar-nav hidden-xs clearfix vcenter">
-                  <li>
-                    <button class="js-toggle-screen toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
-                  </li>
-                  <li><a href="#" class="btn_header_search"><i class="fa fa-search"></i></a></li>
-                </ul>
-              </div>
+            </div>
+              
               <div class="header-navibox-2">
                 <ul class="yamm main-menu nav navbar-nav">
-                 <li><a href="home.html">Home</a></li>
+                 <li><a href="index.html">Home</a></li>
                   <li><a href="services.html">Services</a></li>
                   <li><a href="about.html">About</a></li>
                   <!-- <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">News<b class="caret"></b></a>
@@ -177,8 +176,20 @@
                     </ul>
                   </li> -->
                 </ul>
+                <div id="myNav" class="overlay">
+                  <div class="overlay-content">
+				  
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="corporate.html">Corporate Events</a>
+                    <a href="sports.html">Sports Events</a>
+                    <a href="socialEvents.html">Social Events</a>
+                    <a href="liveStreams.html">Live Streams</a>
+                    <a href="school.html">School</a>
+                    <a href="gatedCoummnities.html">Gated Communities</a>
+                  </div>
+                </div>
+                <div class="menu-ham" onclick="openNav()">&#9776;</div>
               </div>
-            </div>
           </nav>
         </div>
       </header>
@@ -283,6 +294,7 @@
           </div>
         </div>
       </section>
+      <!-- services-->
       <section class="section-default bg-grey">
         <div class="container">
           <div class="row">
@@ -291,220 +303,120 @@
                 <div class="ui-decor-1"><img src="assets/media/general/ui-decor-1.png" alt="decor" class="center-block"></div>
                 <h2 class="ui-title-block"><span class="text-primary">Sri Events</span> Services</h2>
                 <div class="ui-subtitle-block">We make your events smart & impactful by personalised event management services</div>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ex ea consequat duis aute irure dolor in reprehenderit in voluptate labore et dolore magna aliqua cillum dolore</p>
-              </div>
+                </div>
             </div>
           </div>
         </div>
-       
         <div class="label-vertical">
           <div class="container">
-            <div class="row">
-              <!-- First image starting-->
-
-              <div class="col-md-4">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <!-- Front Side -->
-                    <div class="flip-card-front">
-                      <section class="b-post-sm clearfix">
-                        <div class="entry-media">
-                          <a href="assets/media/img/bir/pc-1.jpg" class="js-zoom-images">
-                            <img src="assets/media/img/product-launches.jpeg" alt="Foto" class="img-responsive"/>
+     
+           <!-- sports images section -->
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="post-item">
+                    <div class="entry-media">
+                      <a href="assets/media/img/bir/pc-1.jpg" class="js-zoom-images">
+                        <img src="assets/media/img/product-launches.jpeg" alt="Foto" class="img-responsive"/>
                           </a>
-                        </div>
-                        <div class="entry-main">
-                          <div class="entry-header">
-                            <div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-                            <h2 class="entry-title ui-title-inner"><a href="services.html">Product Launches</a></h2>
-                          </div>
-                        </div>
-                      </section>
                     </div>
-                    <!-- Back Side -->
-                    <div class="flip-card-back">
-                      <div class="entry-main">
-                        <div class="entry-header">
-                          <h2 class="entry-title ui-title-inner">Launch with Impact</h2>
-                        </div>
-                        <div class="entry-content">
-                          <p>Showcase Your New Products with Sri Events</p>
+                    <div class="entry-content">
+                      <h2 class="entry-title"><a href="services.html">Product Launches</a></h2>
+                      <p>Showcase Your New Products with Sri Events</p>
                           <p>A product launch is a critical moment for any business, and Sri Events is here to ensure it makes the right impression. We create immersive launch experiences that highlight the innovation and value of your new products. From creative concepts to flawless execution, our team works closely with you to build anticipation and excitement, ensuring your launch event is a resounding success.</p>
                         </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
-              </div>
-
-              <!-- First images ending -->
-
-              <div class="col-md-4">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <!-- Front Side -->
-                    <div class="flip-card-front">
-                      <section class="b-post-sm clearfix">
-                        <div class="entry-media">
-                          <a href="assets/media/img/bir/pc-5.webp" class="js-zoom-images">
-                            <img src="assets/media/img/corporate-parties.jpeg" alt="Foto" class="img-responsive"/>
-                          </a>
-                        </div>
-                        <div class="entry-main">
-                          <div class="entry-header">
-                            <div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-                            <h2 class="entry-title ui-title-inner"><a href="services.html">Corporate Parties</a></h2>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                    <!-- Back Side -->
-                    <div class="flip-card-back">
-                      <div class="entry-main">
-                        <div class="entry-header">
-                          <h2 class="entry-title ui-title-inner">Celebrate Success and Foster Team Spirit</h2>
-                        </div>
-                        <div class="entry-content">
-                          <p>Corporate parties are a great way to celebrate company achievements, milestones, and holidays, while also fostering team spirit and camaraderie. Sri Events specializes in organizing corporate parties that are tailored to your company's culture and goals. Whether it's an elegant holiday gala, a casual office celebration, or an end-of-year bash, we handle everything from venue selection to entertainment, ensuring your party is a memorable experience for all attendees.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             <!-- second image ending -->
-              <div class="col-md-4">
-                <section class="b-post-sm clearfix">
-                  <div class="entry-media">
-                    <a href="assets/media/img/bir/pc-4.webp" class="js-zoom-images">
-                      <img src="assets/media/img/team-building.jpeg" alt="Foto" class="img-responsive"/>
-                    </a>
-                  </div>
-                  <div class="entry-main">
-                    <div class="entry-header">
-                      <div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-                      <h2 class="entry-title ui-title-inner"><a href="services.html">Business Dinners </a></h2>
-                    </div>
-                    <div class="entry-content">
-                      <p>Sit amet consectetur elit sed lusm tempor incidant temdore ut labore etua dolore.</p>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-            <!-- Second Row -->
-            <div class="row mt-4">
-              <!-- 4th image section starting -->
-              <div class="col-md-4">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <!-- Front Side -->
-                    <div class="flip-card-front">
-                      <section class="b-post-sm clearfix">
-                        <div class="entry-media">
-                          <a href="assets/media/img/bir/pc-4.webp" class="js-zoom-images">
-                            <img src="assets/media/img/team-building.jpeg" alt="Foto" class="img-responsive"/>
-                          </a>
-                        </div>
-                        <div class="entry-main">
-                          <div class="entry-header">
-                            <div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-                            <h2 class="entry-title ui-title-inner"><a href="services.html">⁠Team Building Activities</a></h2>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                    <!-- Back Side -->
-                    <div class="flip-card-back">
-                      <div class="entry-main">
-                        <div class="entry-header">
-                          <h2 class="entry-title ui-title-inner">Strengthen Bonds and Boost Morale</h2>
-                        </div>
-                        <div class="entry-content">
-                          <p>Effective teamwork is the cornerstone of any successful organization. At Sri Events, we design and execute team-building activities that are fun, challenging, and tailored to your team's needs. Whether it’s an outdoor adventure, a problem-solving challenge, or a creative workshop, our activities are designed to improve communication, collaboration, and trust within your team.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-           <!-- 5th image starting -->
-
-           <div class="col-md-4">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <!-- Front Side -->
-                <div class="flip-card-front">
-                  <section class="b-post-sm clearfix">
+                
+                <div class="col-md-4 mb-4">
+                  <div class="post-item">
                     <div class="entry-media">
-                      <a href="assets/media/img/bir/pc-3.jpg" class="js-zoom-images">
-                        <img src="assets/media/img/award-cermony.jpeg" alt="Foto" class="img-responsive"/>
+                      <a href="assets/media/img/corporate-parties.jpeg" class="js-zoom-images">
+                        <img src="assets/media/img/corporate-parties.jpeg" alt="Foto" class="img-fluid"/>
                       </a>
                     </div>
-                    <div class="entry-main">
-                      <div class="entry-header">
-                        <div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-                        <h2 class="entry-title ui-title-inner"><a href="services.html">Award Ceremonies</a></h2>
-                      </div>
-                    </div>
-                  </section>
+                    <div class="entry-content">
+                      <h2 class="entry-title"><a href="services.html">Corporate Parties</a></h2>
+                      <p>Celebrate Success and Foster Team Spirit</p>
+                      <p>Corporate parties are a great way to celebrate company achievements, milestones, and holidays, while also fostering team spirit and camaraderie. Sri Events specializes in organizing corporate parties that are tailored to your company's culture and goals. Whether it's an elegant holiday gala, a casual office celebration, or an end-of-year bash, we handle everything from venue selection to entertainment, ensuring your party is a memorable experience for all attendees.</p>
+                        </div>
+                  </div>
                 </div>
-                <!-- Back Side -->
-                <div class="flip-card-back">
-                  <div class="entry-main">
-                    <div class="entry-header">
-                      <h2 class="entry-title ui-title-inner">Celebrate Success with Sri Events</h2>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="post-item">
+                    <div class="entry-media">
+                      <a href="assets/media/img/business-dinner.jpeg" class="js-zoom-images">
+                        <img src="assets/media/img/business-dinner.jpeg" alt="Foto" class="img-fluid"/>
+                      </a>
                     </div>
                     <div class="entry-content">
+                      <h2 class="entry-title"><a href="services.html">>Business Dinners </a></h2>
+                      <p>Effective teamwork is the cornerstone of any successful organization. At Sri Events, we design and execute team-building activities that are fun, challenging, and tailored to your team's needs. Whether it’s an outdoor adventure, a problem-solving challenge, or a creative workshop, our activities are designed to improve communication, collaboration, and trust within your team.</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+               
+              
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="post-item">
+                    <div class="entry-media">
+                      <a href="assets/media/img/award-cermony.jpeg" class="js-zoom-images">
+                        <img src="assets/media/img/award-cermony.jpeg" alt="Foto" class="img-fluid"/>
+                      </a>
+                    </div>
+                    <div class="entry-content">
+                      <h2 class="entry-title"><a href="services.html">Award Ceremonies</a></h2>
                       <p>Recognize and reward excellence with an award ceremony that stands out. Sri Events crafts elegant and inspiring award ceremonies that celebrate achievements in style. We handle every detail, from the red carpet entrance to the stage design, ensuring your guests feel valued and honored. Let us help you create an event that motivates and inspires your team or industry.</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-              <!-- last image starting -->
-              <div class="col-md-4">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <!-- Front Side -->
-                    <div class="flip-card-front">
-                      <section class="b-post-sm clearfix">
-                        <div class="entry-media">
-                          <a href="assets/media/img/bir/pc-5.webp" class="js-zoom-images">
-                            <img src="assets/media/img/network-events.jpeg" alt="Foto" class="img-responsive"/>
-                          </a>
-                        </div>
-                        <div class="entry-main">
-                          <div class="entry-header">
-                            <div class="ui-decor-2 ui-decor-2_vert bg-primary"></div>
-                            <h2 class="entry-title ui-title-inner"><a href="services.html">Networking Events</a></h2>
-                          </div>
-                        </div>
-                      </section>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="post-item">
+                    <div class="entry-media">
+                      <a href="assets/media/img/network-events.jpeg" class="js-zoom-images">
+                        <img src="assets/media/img/network-events.jpeg" alt="Foto" class="img-fluid"/>
+                      </a>
                     </div>
-                    <!-- Back Side -->
-                    <div class="flip-card-back">
-                      <div class="entry-main">
-                        <div class="entry-header">
-                          <h2 class="entry-title ui-title-inner">Strengthen Bonds and Boost Morale</h2>
-                        </div>
-                        <div class="entry-content">
-                          <p>Effective teamwork is the cornerstone of any successful organization. At Sri Events, we design and execute team-building activities that are fun, challenging, and tailored to your team's needs. Whether it’s an outdoor adventure, a problem-solving challenge, or a creative workshop, our activities are designed to improve communication, collaboration, and trust within your team.</p>
-                        </div>
-                      </div>
+                    <div class="entry-content">
+                      <h2 class="entry-title"><a href="services.html">Team Building Activities</a></h2>
+                      <p>Strengthen Bonds and Boost Morale</p>
+                      <p>Effective teamwork is the cornerstone of any successful organization. At Sri Events, we design and execute team-building activities that are fun, challenging, and tailored to your team's needs. Whether it’s an outdoor adventure, a problem-solving challenge, or a creative workshop, our activities are designed to improve communication, collaboration, and trust within your team.</p>
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="post-item">
+                    <div class="entry-media">
+                      <a href="assets/media/img/team-building.jpeg" class="js-zoom-images">
+                        <img src="assets/media/img/team-building.jpeg" alt="Foto" class="img-fluid"/>
+                      </a>
+                    </div>
+                    <div class="entry-content">
+                      <h2 class="entry-title"><a href="services.html">Networking Events</a></h2>
+                      <p>Celebrate the Spirit of Sports with Exciting Festivals & Exhibitions</p>
+                      <p>Sri Events offers comprehensive services for organizing sports festivals and exhibitions that engage both participants and spectators. From setting up interactive booths and exhibitions to organizing live demonstrations and competitions, we create an immersive sports experience that celebrates athleticism and promotes sportsmanship.</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- last image ending -->
             </div>
-          </div>
-        </div>
-        
-
       </section>
+
+
+
+
+
+
+
+
+
+
+
+      
       <!-- b-progress width parallax-->
       <div class="section-progress section-progress_mod-a area-bg area-bg_dark parallax">
         <div class="area-bg__inner">
@@ -874,7 +786,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <div class="text-center"><a href="corporate.html" class="footer__logo"><img src="assets/media/img/all/logo1.png" alt="Logo" class="img-responsive"/></a></div>
+                <div class="text-center"><a href="corporate.html" class="footer__logo"><img src="assets/media/general/logo.png" alt="Logo" class="img-responsive"/></a></div>
               </div>
             </div>
             <div class="row">
@@ -971,6 +883,7 @@
     <!-- ++++++++++++-->
     <!-- MAIN SCRIPTS-->
     <!-- ++++++++++++-->
+    <script src="assets/js/index.js"></script>
     <script src="assets/libs/jquery-1.12.4.min.js"></script>
     <script src="assets/libs/jquery-migrate-1.2.1.js"></script>
     <!-- Bootstrap-->
