@@ -21,11 +21,7 @@
 .header-topbarbox-1, .header-topbarbox-2 {
     padding: 0;
 }
-.header-topbarbox-2{
-  @media (max-width: 768px){
-    display: none;
-  }
-}
+
 body:not(.header-demo) .navbar-scrolling .overlay-content *{
 	color: #ffd;
 }
@@ -311,3 +307,16 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
   .b-isotope-filter{
     margin: 0;
   }
+  
+  @media (max-width: 768px){
+    .header-topbarbox-2{
+      display: none;
+    }
+    .top-bar-contact__item {
+      margin-right: 8px;
+  }
+  .header-topbarbox-1-left .header-topbarbox-1{
+    width: 100%;
+    text-align: right;
+  }
+}
