@@ -299,4 +299,6 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
   .image-container img.active {
     display: block;
   }
-  
+  .b-isotope-filter{
+    margin: 0;
+  }
