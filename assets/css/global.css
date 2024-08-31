@@ -295,7 +295,15 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
     }
   }
   
-  
+  .b-isotope-grid__title{
+    font-size: 12px;
+    color: #ccc;
+  }
+  .b-isotope-grid__categorie{
+    font-size: 16px;
+    color: #fff;
+    opacity: 1;
+  }
   .image-container img {
     max-width: 100%;
     max-height: 100%;
@@ -322,6 +330,12 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
   }
   .footer-gallery__item img{
     min-height: 60px;
+  }
+  .form-control{
+    color: #fff;
+  }
+  .form-control option{
+    color: #333;
   }
   @media (max-width: 768px){
     .header-topbarbox-2{
