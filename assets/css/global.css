@@ -260,6 +260,8 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
     display: inline-block;
     font-family:'cursive','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif ;
     color: var(--primary);
+    position: relative;
+    top: 10px;
   }
   
   /* Sports css */
@@ -307,7 +309,20 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
   .b-isotope-filter{
     margin: 0;
   }
-  
+  .slider-pro h2.sp-layer{
+    background: rgba(0,0,0,0.5);
+  }
+  .main-slider__info{
+    padding-top:0;
+    margin-top:270px;
+    background:rgba(0,0,0,0.5);
+  }
+  .main-slider__decor{
+    display: none;
+  }
+  .footer-gallery__item img{
+    min-height: 60px;
+  }
   @media (max-width: 768px){
     .header-topbarbox-2{
       display: none;

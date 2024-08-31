@@ -109,14 +109,15 @@ Primary use: Sri Events
 
 .b-brands__item {
   flex: 0 0 auto; /* Ensures each item only takes up its necessary space */
-  width: calc(100% / 3); /* Adjusts the width based on the number of images */
+  /*width: calc(100% / 3); /* Adjusts the width based on the number of images */
   text-align: center;
 }
 
 .b-brands__item img {
   max-width: 200px;
-  height: 70px;
+  /* height: 70px; */
   display: block;
   margin: 0 auto;
-  width: 100px;
+  width: 100%;
+  object-fit: contain;
 }

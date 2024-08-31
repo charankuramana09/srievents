@@ -42,9 +42,11 @@
   padding-top: 42px;
 }
 .demopage-logo {
-  display: block;
   margin: 0 auto;
-  width: 383px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+  width: 45%;
 }
 .demopage-logo img {
   margin: 0 auto;
@@ -81,12 +83,6 @@
 .demopage .hvr-rectangle-out:hover {
   border-color: #e5534c;
   color: #fff;
-}
-.demopage-logo {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  display: inline-block;
-  width: 45%
 }
 .demopage-title {
   font-size: 25px;
