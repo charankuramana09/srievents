@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Slider</title>
+    <link rel="stylesheet" href="assets/css/testimonial.css"/>
+</head>
+<body>
+
+<div class="testimonial-container">
+    <div class="testimonial-slider">
+        <div class="testimonial">
+            <p>"Working with Sri Sports Events was an absolute pleasure. Their attention to detail and commitment to making our event a success were truly exceptional. From planning to execution, everything was flawless. Our guests were thrilled, and so were we! We highly recommend Sri Sports Events to anyone looking to host a memorable event."</p>
+            <div class="testimonial-author">— Priya R., Corporate Event Organizer</div>
+        </div>
+        <div class="testimonial">
+            <p>"Sri Sports Events turned our vision into reality. They handled every aspect of our sports tournament with professionalism and creativity. The event ran smoothly, and the feedback from participants was overwhelmingly positive. The team's expertise in sports event management is evident, and we couldn’t be happier with the outcome."</p>
+            <div class="testimonial-author">— Rajesh K., Sports Club Manager</div>
+        </div>
+        <div class="testimonial">
+            <p>"I can't thank Sri Sports Events enough for the amazing job they did with our annual charity run. The organization was top-notch, and they took care of everything from registration to post-event celebrations. Their passion for sports and community engagement shines through in their work. We look forward to collaborating with them again next year!"</p>
+            <div class="testimonial-author">— Meena S., Non-Profit Event Coordinator</div>
+        </div>
+        <div class="testimonial">
+            <p>"From start to finish, Sri Sports Events provided exceptional service. Their team was incredibly organized, ensuring that every detail of our corporate sports event was handled with care. The event was a big hit with our employees, and we couldn’t have asked for a better partner in making it happen. Highly recommended!"</p>
+            <div class="testimonial-author">— Sunita M., HR Manager</div>
+        </div>
+        <div class="testimonial">
+            <p>"Sri Sports Events recently organized our gated community’s annual sports day, and it was a huge success! The team was incredibly professional and managed everything from the setup to the activities with ease. Everyone, from kids to seniors, had a blast. We highly recommend them for any community events!"</p>
+            <div class="testimonial-author">— Rahul S.</div>
+        </div>
+        <div class="testimonial">
+            <p>"We hired Sri Sports Events to manage our school's sports day, and they exceeded our expectations. Their team was well-organized, engaging, and made sure every student had a great time. The live streaming of the event was a hit with parents who couldn't attend in person. We'll definitely be calling them for future events!"</p>
+            <div class="testimonial-author">— Mrs. Anjali K.</div>
+        </div>
+        <div class="testimonial">
+            <p>"We were looking for a reliable company to handle the live streaming of our conference, and Sri Sports Events delivered beyond our expectations. The quality of the stream was top-notch, and the whole process was seamless. Thanks to them, our remote attendees felt like they were right there with us. Excellent job!"</p>
+            <div class="testimonial-author">— Divya M.</div>
+        </div>
+        <div class="testimonial">
+            <p>"Our wedding was everything we dreamed of, thanks to Sri Events. They took care of every detail, allowing us to enjoy our day without any stress. The team was professional, creative, and genuinely cared about making our day special. We couldn’t have asked for a better event management company!"</p>
+            <div class="testimonial-author">— Rohan and Sneha P.</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript to pause animation on hover
+    const slider = document.querySelector('.testimonial-slider');
+
+    slider.addEventListener('mouseover', () => {
+        slider.style.animationPlayState = 'paused';
+    });
+
+    slider.addEventListener('mouseout', () => {
+        slider.style.animationPlayState = 'running';
+    });
+</script>
+
+</body>
+</html>
