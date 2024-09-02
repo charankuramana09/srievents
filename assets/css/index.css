@@ -280,6 +280,18 @@ ul.demopage-help_list li a:hover {
     padding: 81px 0 0;
   }
 }
+@media (max-width: 425px){
+  .demopage-logo{
+    width: 100%;
+  }
+  .demopage-logo .logo-text{
+    font-size: 16px;
+    top: 5px;
+  }
+  .menu-ham{
+    font-size: 30px;
+  }
+}
 
 /* charan changes */
 
