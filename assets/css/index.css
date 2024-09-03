@@ -293,5 +293,7 @@ ul.demopage-help_list li a:hover {
   }
 }
 
-/* charan changes */
 
+.main-slider__btn{
+  background: rgba(0, 0, 0, 0.5);
+}
