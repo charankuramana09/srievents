@@ -2281,6 +2281,14 @@ input:-ms-input-placeholder {
   overflow: hidden;
   height: 295px;
   width: 340px;
+  @media (max-width: 425px){
+    width:98%;
+  }
+}
+.b-isotope-grid__item{
+  @media (max-width: 425px){
+    margin: 1%;
+  }
 }
 
 .b-isotope-grid__wrap-info {
@@ -2367,6 +2375,9 @@ input:-ms-input-placeholder {
 .main-slider__btn {
   margin: 35px 10px 0;
   color: #fff;
+  @media (max-width: 425px) {
+    margin: 0 0 10px;
+  }
 }
 
 .main-slider__item-1, .main-slider__item-2, .main-slider__item-3 {
