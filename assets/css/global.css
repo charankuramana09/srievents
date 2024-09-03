@@ -1,4 +1,5 @@
 /*custom styles*/
+@import url(testimonial.css);
 :root {
     --primary: #F49320;
     --secondary: #3cb4d3;
