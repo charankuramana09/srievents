@@ -325,6 +325,9 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
     padding-top:0;
     margin-top:270px;
     background:rgba(0,0,0,0.5);
+    @media (max-width: 425px) {
+      margin-top: 150px;
+    }
   }
   .main-slider__decor{
     display: none;
