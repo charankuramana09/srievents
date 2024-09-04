@@ -914,8 +914,8 @@ input:-ms-input-placeholder {
 
 .section-default {
   position: relative;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .section-default_padd-top {
@@ -1763,8 +1763,10 @@ input:-ms-input-placeholder {
 
 .b-blockquote-3 .b-blockquote__cite {
   display: block;
-  padding-left: 90px;
+  /* padding-left: 90px; */
   font-style: normal;
+  
+  color: var(--primary);
 }
 
 .b-blockquote-3 .b-blockquote__face {
@@ -1773,6 +1775,7 @@ input:-ms-input-placeholder {
   height: 70px;
   border-radius: 50%;
   overflow: hidden;
+  display: none;
 }
 
 .b-blockquote-3_w_bg {
