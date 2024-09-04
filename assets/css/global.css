@@ -338,6 +338,9 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
   .form-control{
     color: #fff;
   }
+  .contact-form .form-control{
+    color: #777;
+  }
   .form-control option{
     color: #333;
   }
@@ -357,4 +360,8 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
   width: 100%;
   height: 700px;
   border:none;
+}
+.welcome-container{
+  width:100%;
+  height: 750px;
 }
