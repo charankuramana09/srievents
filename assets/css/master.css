@@ -197,6 +197,7 @@ Primary use: Sri Events
   #specific-nav, #specific-nav li, #specific-nav a {
     font-size: 16px;
     font-weight: bold;
+    margin-top: 2%;
   }
   
   #specific-nav a:hover {
