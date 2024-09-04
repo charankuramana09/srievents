@@ -194,12 +194,12 @@ Primary use: Sri Events
     object-fit: cover;
   }
   
-  nav-text-size, li, a{
+  #specific-nav, #specific-nav li, #specific-nav a {
     font-size: 16px;
-   
     font-weight: bold;
   }
-  nav-text-size, li, a:hover{
-   
+  
+  #specific-nav a:hover {
     color: black;
   }
+  

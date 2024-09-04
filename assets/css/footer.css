@@ -1,0 +1,103 @@
+.footer {
+    background-color: #181818;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .footer__main {
+    padding: 40px 0;
+  }
+  
+  .footer__logo {
+    margin: 0 auto 30px;
+    display: block;
+  }
+  
+  .footer-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer__info {
+    margin-bottom: 15px;
+  }
+  
+  .footer__contact i {
+    margin-right: 10px;
+  }
+  
+  .footer-contact {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-contact li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .footer-gallery__item {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+  }
+  
+  .footer-gallery__item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer__bottom {
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .social-net {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .social-net__item {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .social-net__link {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .social-net__link:hover {
+    color: #ddd;
+  }
+  
