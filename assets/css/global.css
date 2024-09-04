@@ -353,3 +353,8 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-brand-container 
     text-align: right;
   }
 }
+.footer-frame{
+  width: 100%;
+  height: 700px;
+  border:none;
+}
