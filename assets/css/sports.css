@@ -127,46 +127,143 @@ Primary use: Sri Events
 
 
 
-/* Base styles for all post items */
-.post-item {
+/* Card animation for services */
+#post-item-1 .post-item {
+  opacity: 0; 
+  transition: transform 1s ease-out, opacity 1s ease-out; 
+}
+
+#post-item-2 .post-item {
   opacity: 0;
   transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
-/* Directional animations */
-.post-item.from-left {
+#post-item-3 .post-item {
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+#post-item-4 .post-item {
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+#post-item-5 .post-item {
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+#post-item-6 .post-item {
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+
+#post-item-1 .post-item.from-left {
   transform: translateX(-100px);
 }
 
-.post-item.from-right {
+#post-item-2 .post-item.from-right {
+  transform: translateX(100px); 
+}
+
+#post-item-3 .post-item.from-bottom {
+  transform: translateY(50px); 
+}
+
+#post-item-4 .post-item.from-left {
+  transform: translateX(-100px);
+}
+
+#post-item-5 .post-item.from-right {
   transform: translateX(100px);
 }
 
-.post-item.from-bottom {
+#post-item-6 .post-item.from-bottom {
   transform: translateY(50px);
 }
 
-/* Visible state reset */
-.post-item.visible {
+
+#post-item-1 .post-item.visible,
+#post-item-2 .post-item.visible,
+#post-item-3 .post-item.visible,
+#post-item-4 .post-item.visible,
+#post-item-5 .post-item.visible,
+#post-item-6 .post-item.visible {
   opacity: 1;
-  transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0); 
 }
 
-/* Hover effect for images */
-.entry-media img {
+
+#post-item-1 .entry-media img,
+#post-item-2 .entry-media img,
+#post-item-3 .entry-media img,
+#post-item-4 .entry-media img,
+#post-item-5 .entry-media img,
+#post-item-6 .entry-media img {
   transition: transform 0.3s ease;
 }
 
-.post-item:hover .entry-media img {
+#post-item-1:hover .entry-media img {
   transform: scale(1.05);
 }
 
-/* Hover effect for entry content */
-.entry-content {
+#post-item-2:hover .entry-media img {
+  transform: scale(1.05);
+}
+
+#post-item-3:hover .entry-media img {
+  transform: scale(1.05);
+}
+
+#post-item-4:hover .entry-media img {
+  transform: scale(1.05);
+}
+
+#post-item-5:hover .entry-media img {
+  transform: scale(1.05);
+}
+
+#post-item-6:hover .entry-media img {
+  transform: scale(1.05);
+}
+
+
+#post-item-1 .entry-content,
+#post-item-2 .entry-content,
+#post-item-3 .entry-content,
+#post-item-4 .entry-content,
+#post-item-5 .entry-content,
+#post-item-6 .entry-content {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.post-item:hover .entry-content {
+#post-item-1:hover .entry-content {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#post-item-2:hover .entry-content {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#post-item-3:hover .entry-content {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#post-item-4:hover .entry-content {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#post-item-5:hover .entry-content {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#post-item-6:hover .entry-content {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
