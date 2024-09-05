@@ -1559,6 +1559,7 @@ input:-ms-input-placeholder {
 
 .b-advantages-1 .b-advantages__info {
   padding-bottom: 21px;
+  min-height: 120px;
 }
 
 .b-advantages-1 .btn {

@@ -84,4 +84,6 @@
       opacity: 1;
     }
   }
-  
+  .b-team__media{
+    font-size: 12px;
+  }

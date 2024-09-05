@@ -121,3 +121,52 @@ Primary use: Sri Events
   width: 100%;
   object-fit: contain;
 }
+.col-sm-12{
+  font-size: 12px;
+}
+
+
+
+/* Base styles for all post items */
+.post-item {
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+/* Directional animations */
+.post-item.from-left {
+  transform: translateX(-100px);
+}
+
+.post-item.from-right {
+  transform: translateX(100px);
+}
+
+.post-item.from-bottom {
+  transform: translateY(50px);
+}
+
+/* Visible state reset */
+.post-item.visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+/* Hover effect for images */
+.entry-media img {
+  transition: transform 0.3s ease;
+}
+
+.post-item:hover .entry-media img {
+  transform: scale(1.05);
+}
+
+/* Hover effect for entry content */
+.entry-content {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-item:hover .entry-content {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
