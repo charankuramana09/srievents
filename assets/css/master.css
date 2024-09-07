@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project: Sri Events
+Project: Sri Sports Events 
 Version:  1.0
 Assigned to:  WebNik
-Primary use: Sri Events
+Primary use: Sri Sports Events 
 -------------------------------------------------------------------*/
 
 
@@ -197,7 +197,7 @@ Primary use: Sri Events
   #specific-nav, #specific-nav li, #specific-nav a {
     font-size: 16px;
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 1%;
   }
   
   #specific-nav a:hover {

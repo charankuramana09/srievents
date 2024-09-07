@@ -53,6 +53,9 @@
     animation: blink 1s infinite;
     margin-left: auto;
     margin-right: auto;
+    @media (max-width: 500px){
+      width: 100%;
+    }
   }
   
   @keyframes blink {
