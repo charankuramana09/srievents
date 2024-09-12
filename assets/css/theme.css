@@ -3181,6 +3181,9 @@ font-size: 11px;
   padding-top: 110px;
   padding-bottom: 80px;
 }
+.section-team .owl-item{
+  width: 100%!important;
+}
 
 .section-team.parallax {
   padding-bottom: 125px;
@@ -3436,6 +3439,9 @@ font-size: 11px;
   .footer__main{
     padding-bottom: 0px;
   }
+  .footer__main *{
+    font-size:14px;
+  }
   .footer__main .row{
     width: 100%;
     flex-direction: column;
@@ -3443,6 +3449,7 @@ font-size: 11px;
   .footer__main .row .col-md-3{
     width: 100%;
   }
+  
 }
 
 .footer__logo {
@@ -3464,7 +3471,6 @@ font-size: 11px;
 .footer__info {
   margin-right: 20px;
 }
-
 .footer__bottom {
   padding-top: 28px;
   padding-bottom: 28px;
